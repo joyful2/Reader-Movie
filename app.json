@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/post",
+    "pages/post/post-detail/post-detail",
+    "pages/logs/logs",
+    "pages/movies/movie"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/post/post",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/movies/movie",
+        "text": "电影"
+      }
+    ]
+  }
+}
